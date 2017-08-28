@@ -1,10 +1,18 @@
 # Elisa - Multipurpose Landing Template
 
-[Elisa]() is a multipurpose landing page template built on Bootstrap 3.3.7. This responsive template comes with 8 Demo variations which can be used to build your product, service, marketing, app and SaaS landing pages.
+[Elisa](https://insiderdev.github.io/elisa-template-demo/) is a multipurpose landing page template built on Bootstrap 3.3.7. This responsive template comes with 8 Demo variations which can be used to build your product, service, marketing, app and SaaS landing pages.
+
+You can find full documentation in [this repo](https://github.com/insiderdev/elisa-template-docs).
 
 ## Preview
 
-TODO
+Demo for this template's variants is available [here](https://insiderdev.github.io/elisa-template-demo/)
+
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/insiderdev/elisa-template/master/LICENSE)
+[![dependencies Status](https://david-dm.org/insiderdev/elisa-template/status.svg)](https://david-dm.org/insiderdev/elisa-template)
+[![devDependencies Status](https://david-dm.org/insiderdev/elisa-template/dev-status.svg)](https://david-dm.org/insiderdev/elisa-template?type=dev)
 
 # Usage
 
@@ -64,7 +72,7 @@ To add a new component to your page:
 
 Yes, this is so easy.
 
-#### Gulp Tasks
+## Gulp Tasks
 
 - `gulp` the default task that builds everything
 - `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
