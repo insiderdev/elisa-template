@@ -2,6 +2,8 @@
 
 [Elisa](https://insiderdev.github.io/elisa-template-demo/) is a multipurpose landing page template built on Bootstrap 3.3.7. This responsive template comes with 8 Demo variations which can be used to build your product, service, marketing, app and SaaS landing pages.
 
+![Promo Image](img/promo.png)
+
 You can find full documentation in [this repo](https://github.com/insiderdev/elisa-template-docs).
 
 ## Preview
