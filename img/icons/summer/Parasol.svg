@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="62px" viewBox="0 0 79 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Parasol</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M71,29.6984848 C71,13.2964646 55.1061086,6.39488462e-14 35.5,6.39488462e-14 C15.8938914,6.39488462e-14 -5.5067062e-14,13.2964646 -5.5067062e-14,29.6984848 C-5.5067062e-14,46.1005051 71,46.1005051 71,29.6984848 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-559.000000, -297.000000)">
+            <g id="Parasol" transform="translate(550.000000, 286.000000)">
+                <rect id="stick" fill="#785037" transform="translate(51.055615, 58.725717) rotate(-22.000000) translate(-51.055615, -58.725717) " x="49.5556154" y="45.7257175" width="3" height="26" rx="1.5"></rect>
+                <g id="Combined-Shape" transform="translate(40.941237, 33.691753) rotate(-22.000000) translate(-40.941237, -33.691753) translate(5.441237, 12.691753)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="body" fill="#FF7166" xlink:href="#path-1"></use>
+                    <path d="M37.0030202,23.4506203 C39.5130196,12.4452386 50.0030202,-5.04937967 50.0030202,-5.04937967 C50.0030202,-5.04937967 52.0865575,17.1845501 54.5000474,27.7667748 C56.4198909,36.1845501 63.0030202,51.9506203 63.0030202,51.9506203 L37.0030202,51.9506203 C37.0030202,51.9506203 35.1796862,31.4452386 37.0030202,23.4506203 Z" id="stripe" fill="#EDEDED" mask="url(#mask-2)" transform="translate(49.597835, 23.450620) scale(-1, 1) rotate(30.000000) translate(-49.597835, -23.450620) "></path>
+                    <path d="M9.00302022,23.4506203 C11.5130196,12.4452386 22.0030202,-5.04937967 22.0030202,-5.04937967 C22.0030202,-5.04937967 24.0865575,17.1845501 26.5000474,27.7667748 C28.4198909,36.1845501 35.0030202,51.9506203 35.0030202,51.9506203 L9.00302019,51.9506203 C9.00302019,51.9506203 7.17968622,31.4452386 9.00302022,23.4506203 Z" id="stripe" fill="#EDEDED" mask="url(#mask-2)" transform="translate(21.597835, 23.450620) rotate(30.000000) translate(-21.597835, -23.450620) "></path>
+                </g>
+                <rect id="sand" fill="#FEE8C1" x="22" y="70" width="66" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

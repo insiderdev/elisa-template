@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="58px" viewBox="0 0 60 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Watermelon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.0345532,3.79374403 C20.5007514,-1.14999616 24.4967249,-1.15505522 26.9654468,3.79374403 L45,39.9458046 C45,39.9458046 44.1964286,48 22.5,48 C0.803571429,48 0,39.9458046 0,39.9458046 L18.0345532,3.79374403 Z" id="path-1"></path>
+        <path d="M18.0345532,3.79374403 C20.5007514,-1.14999616 24.4967249,-1.15505522 26.9654468,3.79374403 L45,39.9458046 C45,39.9458046 44.1964286,48 22.5,48 C0.803571429,48 0,39.9458046 0,39.9458046 L18.0345532,3.79374403 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-425.000000, -301.000000)">
+            <g id="Watermelon" transform="translate(425.000000, 301.000000)">
+                <g id="back">
+                    <g id="w-2">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="body" fill="#52DE9D" xlink:href="#path-1"></use>
+                        <ellipse id="green" fill="#57EAA6" mask="url(#mask-2)" cx="33" cy="44" rx="23" ry="11"></ellipse>
+                        <ellipse id="red" fill="#FF7166" mask="url(#mask-2)" cx="22.5" cy="11.5" rx="31.5" ry="31.5"></ellipse>
+                        <ellipse id="shadow" fill="#FF867D" mask="url(#mask-2)" cx="39.5" cy="15" rx="22.5" ry="21"></ellipse>
+                    </g>
+                    <ellipse id="4" fill="#4D392D" cx="19.5" cy="21.5" rx="1.5" ry="1.5"></ellipse>
+                    <ellipse id="3" fill="#4D392D" cx="27.5" cy="28.5" rx="1.5" ry="1.5"></ellipse>
+                    <ellipse id="2" fill="#4D392D" cx="17.5" cy="34.5" rx="1.5" ry="1.5"></ellipse>
+                    <ellipse id="1" fill="#4D392D" cx="23.5" cy="10.5" rx="1.5" ry="1.5"></ellipse>
+                </g>
+                <g id="front" transform="translate(15.000000, 10.000000)">
+                    <g id="w-1">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="body" fill="#52DE9D" xlink:href="#path-3"></use>
+                        <ellipse id="green" fill="#57EAA6" mask="url(#mask-4)" cx="33" cy="44" rx="23" ry="11"></ellipse>
+                        <ellipse id="red" fill="#FF7166" mask="url(#mask-4)" cx="22.5" cy="11.5" rx="31.5" ry="31.5"></ellipse>
+                        <ellipse id="shadow" fill="#FF867D" mask="url(#mask-4)" cx="39.5" cy="15" rx="22.5" ry="21"></ellipse>
+                    </g>
+                    <ellipse id="4" fill="#4D392D" cx="19.5" cy="21.5" rx="1.5" ry="1.5"></ellipse>
+                    <ellipse id="3" fill="#4D392D" cx="27.5" cy="28.5" rx="1.5" ry="1.5"></ellipse>
+                    <ellipse id="2" fill="#4D392D" cx="17.5" cy="34.5" rx="1.5" ry="1.5"></ellipse>
+                    <ellipse id="1" fill="#4D392D" cx="23.5" cy="10.5" rx="1.5" ry="1.5"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

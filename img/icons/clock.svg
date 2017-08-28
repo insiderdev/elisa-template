@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>time icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="Landing-page" transform="translate(-1044.000000, -4719.000000)" fill="#FFFFFF">
+            <g id="News" transform="translate(230.000000, 4470.000000)">
+                <g id="featured-article">
+                    <g id="article-name-and-meta" transform="translate(681.000000, 133.000000)">
+                        <g id="title" transform="translate(1.000000, 38.000000)">
+                            <g id="meta" transform="translate(2.000000, 76.000000)">
+                                <path d="M137.741935,2 C133.473032,2 130,5.47303226 130,9.74193548 C130,14.0108387 133.473032,17.483871 137.741935,17.483871 C142.010839,17.483871 145.483871,14.0108387 145.483871,9.74193548 C145.483871,5.47303226 142.010839,2 137.741935,2 L137.741935,2 Z M141.509677,13.4967742 C141.458581,13.5514839 141.389935,13.5788387 141.320774,13.5788387 C141.257806,13.5788387 141.194839,13.5566452 141.144774,13.5101935 L137.307871,9.93032258 C137.255226,9.88180645 137.22529,9.81367742 137.22529,9.74193548 L137.22529,6.16258065 C137.22529,6.02012903 137.340903,5.90451613 137.483871,5.90451613 C137.626323,5.90451613 137.741935,6.02012903 137.741935,6.16258065 L137.741935,9.62993548 L141.496774,13.131871 C141.601032,13.2299355 141.60671,13.3930323 141.509677,13.4967742 L141.509677,13.4967742 Z" id="time-icon"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

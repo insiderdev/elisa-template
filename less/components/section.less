@@ -1,0 +1,98 @@
+section {
+  padding: 50px 0;
+  &.no-bottom-padding {
+    padding-bottom: 0;
+  }
+
+  &.bg-gray {
+    background-color: #F4F5F7;
+  }
+
+  &.bordered {
+    @media (min-width: @responsive-md) {
+      box-shadow: 0 0 1px 0 rgba(31,45,61,.3);
+    }
+    @media (max-width: @responsive-md) {
+      border-top: 1px solid rgba(31,45,61, .3);
+      border-bottom: 1px solid rgba(31,45,61, .3);
+    }
+  }
+
+  .section-heading {
+    .sans-serif-font;
+    font-weight: 300;
+    margin-top: 0;
+    text-align: center;
+    color: @gray-dark;
+    @media (max-width: @responsive-md) {
+      padding: 0 20px;
+    }
+
+    &.align-left {
+      text-align: left;
+    }
+
+    &.dark {
+      color: @gray-dark;
+    }
+
+    &.light-gray {
+      color: @gray-light;
+    }
+
+    &.margins {
+      margin: 30px 0;
+    }
+
+    p {
+      &.light-gray {
+        color: @gray-light;
+      }
+
+      @media (max-width: @responsive-md) {
+        padding: 0 10px;
+      }
+    }
+  }
+
+  .section-body {
+    .sans-serif-font;
+    text-align: center;
+    &.dark {
+      color: @gray-dark;
+    }
+    &.light-gray {
+      color: @gray-light;
+    }
+  }
+
+  .section-image-container {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    .section-image {
+      width: 100%;
+    }
+  }
+}
+
+@import "sections/features";
+@import "sections/functionality";
+@import "sections/testimonials";
+@import "sections/blog-row-1";
+@import "sections/partners";
+@import "sections/split-feature-1";
+@import "sections/screenshots-1";
+@import "sections/video-1";
+@import "sections/features-2";
+@import "sections/pricing-default";
+@import "sections/split-product";
+@import "sections/reviews";
+@import "sections/faq";
+@import "sections/newsletter";
+@import "sections/contact-with-map";
+@import "sections/contact-default";
+@import "sections/splash";
+@import "sections/split-fullscreen";
+@import "sections/team";
+@import "sections/download-section";

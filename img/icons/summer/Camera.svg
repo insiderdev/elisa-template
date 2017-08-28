@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="60px" viewBox="0 0 61 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="27.5" cy="26.5" r="13.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="27" height="27" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-565.000000, -172.000000)">
+            <g id="Camera" transform="translate(594.500000, 202.500000) rotate(-26.000000) translate(-594.500000, -202.500000) translate(568.000000, 178.000000)">
+                <rect id="trigger" fill="#45C9CA" x="31" y="2.84217094e-13" width="16" height="13" rx="3"></rect>
+                <path d="M0,14.005662 C0,9.58425697 3.58048113,6 7.99202007,6 L45.0079799,6 C49.4218507,6 53,9.58133444 53,14.005662 L53,34.994338 C53,39.415743 49.4527014,43.5072119 45.0715386,44.1064368 C45.0715386,44.1064368 32.6693266,46 26.5,46 C20.3306734,46 7.91250919,44.1043086 7.91250919,44.1043086 C3.54255103,43.4944158 0,39.4186656 0,34.994338 L0,14.005662 Z" id="body" fill="#52DDDE"></path>
+                <use id="focus" stroke="#F3F3F3" mask="url(#mask-2)" stroke-width="4" fill="#35BBBC" xlink:href="#path-1"></use>
+                <circle id="focus" fill="#4C392D" cx="27.5" cy="26.5" r="6.5"></circle>
+                <ellipse id="light" fill="#F2F2F2" cx="27.5" cy="21.5" rx="4.5" ry="2.5"></ellipse>
+                <ellipse id="light" fill="#F2F2F2" opacity="0.877040578" cx="25" cy="31" rx="3" ry="2"></ellipse>
+                <rect id="flash" fill="#FFFFFF" x="4" y="13" width="9" height="7" rx="3.5"></rect>
+                <path d="M53,25 L53,37.994338 C53,42.415743 49.4527014,46.5072119 45.0715386,47.1064368 C45.0715386,47.1064368 32.6693266,49 26.5,49 C20.3306734,49 7.91250919,47.1043086 7.91250919,47.1043086 C3.54255103,46.4944158 1.13686838e-13,42.4186656 1.13686838e-13,37.994338 L1.13686838e-13,25 L1.13686838e-13,32.994338 C1.13686838e-13,37.4186656 3.54255103,41.4944158 7.91250919,42.1043086 C7.91250919,42.1043086 20.3306734,44 26.5,44 C32.6693266,44 45.0715386,42.1064368 45.0715386,42.1064368 C49.4527014,41.5072119 53,37.415743 53,32.994338 L53,25 Z" id="Shadow" fill="#49CCCD"></path>
+            </g>
+        </g>
+    </g>
+</svg>

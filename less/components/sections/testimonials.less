@@ -1,0 +1,250 @@
+.testimonials {
+  &--default {
+    .background-cover;
+    background-position: center;
+    background-image: url('../img/testimonials-bg.png');
+
+    &:before {
+      content: "";
+      position: absolute;
+      //.gradient-background-cover;
+    }
+
+    .gradient-cover {
+      .gradient-background-cover;
+      position: relative;
+    }
+
+    .container {
+      padding: 50px 0;
+      opacity: 1;
+      text-align: center;
+    }
+
+    .person-avatar--lg {
+      width: 80px;
+      height: 80px;
+      border: 2px solid white;
+      border-radius: 40px;
+    }
+
+    .quotes {
+      .single-quote {
+        display: none;
+
+        &--active {
+          display: block;
+        }
+      }
+
+      .quote {
+        .sans-serif-font;
+        margin: 20px auto 10px;
+        color: white;
+        width: 90%;
+        @media (min-width: 768px) {
+          width: 70%;
+        }
+      }
+
+      .person-name {
+        .sans-serif-font;
+        font-size: 13px;
+        color: white;
+      }
+    }
+
+    .divider {
+      width: 50px;
+      opacity: 0.25;
+    }
+
+    .person-selector {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 56px;
+
+      .person {
+        border: 2px solid white;
+        width: 45px;
+        height: 45px;
+        margin: 0 5px;
+        border-radius: 22.5px;
+        cursor: pointer;
+
+        &.person--active {
+          width: 56px;
+          height: 56px;
+          border-radius: 28px;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  &--carousel {
+    @media (max-width: @responsive-md) {
+      min-height: 350px;
+    }
+
+    .row {
+      position: relative;
+      margin: 0;
+    }
+    .carousel-control {
+      background: none;
+      color: #222;
+      font-size: 2.3em;
+      text-shadow: none;
+      display: flex;
+      align-items: center;
+
+      &.left {
+        justify-content: flex-start;
+        left: 25px;
+      }
+
+      &.right {
+        justify-content: flex-end;
+        right: 25px !important;
+      }
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+    }
+
+    .carousel-indicators {
+      right: 50%;
+      top: auto;
+      bottom: 0;
+      margin-right: -19px;
+
+      li {
+        background: #c0c0c0;
+      }
+
+      .active
+      {
+        background: #333333;
+      }
+    }
+
+    img {
+      width: 250px;
+      height: 100px
+    }
+
+    .item blockquote {
+      border-left: none;
+      margin: 0;
+    }
+
+    .item blockquote img {
+      margin-bottom: 10px;
+    }
+
+    .item blockquote p:before {
+      content: "\f10d";
+      font-family: 'Fontawesome';
+      float: left;
+      margin-right: 10px;
+      font-weight: 100;
+    }
+
+
+
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+
+    @media (max-width: 768px) {
+      .carousel-control {
+        &.left {
+          left: -10px !important;
+        }
+
+        &.right {
+          right: -10px !important;
+        }
+      }
+
+      .carousel-indicators {
+        bottom: -30px !important;
+
+        li {
+          display: inline-block;
+          margin: 0px 5px;
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+  }
+
+  &--quotes {
+    .testimonial-quote {
+      margin-top: 50px;
+      border-radius: 5px;
+      padding: 30px 30px 20px 30px;
+      position: relative;
+      background-color: #ffffff;
+      box-shadow: 1px 1px 2px rgba(222, 222, 222, 0.32);
+
+      &:after {
+        content: "";
+        bottom: -15px;
+        left: 50px;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 15px solid #fff;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+      }
+    }
+
+    .testimonial-person {
+      padding-left: 30px;
+      margin-top: 35px;
+      display: flex;
+      align-items: center;
+
+      &__avatar {
+        margin-right: 15px;
+        display: inline-block;
+        vertical-align: bottom;
+
+        img {
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+        }
+      }
+
+      &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      &__name {
+        margin-bottom: 0;
+      }
+
+      &__work {
+        font-weight: 400;
+        display: block;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

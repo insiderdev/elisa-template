@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="47px" viewBox="0 0 73 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Wave and Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19,28 L14.0223338,30.616914 C11.5774256,31.9022783 9.97415039,30.7361974 10.4408982,28.0148487 L11.3915479,22.472136 L7.36453131,18.546765 C5.38655906,16.6187185 6.00012862,14.7335744 8.73251797,14.3365349 L14.297718,13.527864 L16.7865511,8.48493736 C18.0090052,6.00797485 19.9914872,6.00897259 21.2134489,8.48493736 L23.702282,13.527864 L29.267482,14.3365349 C32.0009724,14.7337344 32.6126442,16.6194952 30.6354687,18.546765 L26.6084521,22.472136 L27.5591018,28.0148487 C28.0260377,30.737294 26.4215895,31.9017605 23.9776662,30.616914 L19,28 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.641725093   0 0 0 0 0.615076547  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-421.000000, -436.000000)">
+            <g id="Wave-and-Star" transform="translate(415.000000, 436.000000)">
+                <g id="wave" transform="translate(12.000000, 0.000000)">
+                    <path d="M27.0093294,33.184224 C37.9234516,36.8196199 55.1957957,33.3249111 55.1957957,33.3249111 C55.1957957,33.3249111 32.3615512,17.4933255 66,10.5956595 C66,10.5956595 48.1342712,-15.0408886 16.0952078,17.4933255 C9.21377074,24.4811123 3.97861235,30.6857223 0,33.0494123 C0,33.0494123 16.0952072,29.5488281 27.0093294,33.184224 Z" id="Path-38" fill="#6BC9F1"></path>
+                    <path d="M55.0016993,32.5436504 C55.7669472,32.4116799 56.1957957,32.3249111 56.1957957,32.3249111 C56.1957957,32.3249111 52.3852915,29.6829878 50.1706421,26.0874072 C51.1686461,28.7123327 53.3363754,31.0384681 55.0016993,32.5436504 Z M66.4070331,9.71940825 C66.6027107,9.67784745 66.8003608,9.63659615 67,9.59565953 C67,9.59565953 49.1342712,-16.0408886 17.0952078,16.4933255 C10.2137707,23.4811123 4.97861235,29.6857223 1,32.0494123 C1,32.0494123 2.79599113,31.658798 5.59491097,31.2740417 C8.99807778,28.196321 13.115618,23.5498727 18.0952078,18.4933255 C44.5775018,-8.39824161 61.3764906,4.45279694 66.4070331,9.71940825 Z" id="Combined-Shape" fill="#8DDDFF"></path>
+                </g>
+                <path d="M12,32.5166272 C12,32.5166272 28.0952072,29.016043 39.0093294,32.6514389 L39.0093294,32.6514389 C49.9234516,36.2868347 67.1957957,32.792126 67.1957957,32.792126" id="shadow" stroke="#5BBBE3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="tar" transform="translate(0.000000, 14.000000)">
+                    <g id="Star-1" transform="translate(19.000000, 18.472136) rotate(-17.000000) translate(-19.000000, -18.472136) ">
+                        <use fill="#FF7166" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <circle id="Oval-57" fill="#EB564B" opacity="0.274836754" cx="19" cy="20" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

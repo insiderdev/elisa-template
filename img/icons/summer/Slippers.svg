@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="60px" viewBox="0 0 50 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Slippers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.888401,58 C22.6933193,58 19.0457253,44.9007621 20.5624599,32.5647138 C21.704318,23.2776472 24.8515221,14.3667974 24.8515221,12.118087 C24.8515221,6.88240542 19.9635337,0 13.8884014,0 C7.81326917,0 1.12495965,10.8447659 1.12495965,16.0804475 C1.12495965,19.0124037 -5.61232193,58 13.888401,58 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.305666438   0 0 0 0 0.663368738   0 0 0 0 0.815582483  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#6BC9F1" offset="0%"></stop>
+            <stop stop-color="#57BBE6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M13.888401,58 C22.6933193,58 19.0457253,44.9007621 20.5624599,32.5647138 C21.704318,23.2776472 24.8515221,14.3667974 24.8515221,12.118087 C24.8515221,6.88240542 19.9635337,0 13.8884014,0 C7.81326917,0 1.12495965,10.8447659 1.12495965,16.0804475 C1.12495965,19.0124037 -5.61232193,58 13.888401,58 Z" id="path-4"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.305666438   0 0 0 0 0.663368738   0 0 0 0 0.815582483  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-167.000000, -422.000000)">
+            <g id="Slippers" transform="translate(167.000000, 422.000000)">
+                <g id="Slipper">
+                    <g id="base">
+                        <use fill="#6BC9F1" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M11.5,56 C14.5375661,56 16,53.5375661 16,50.5 C16,47.4624339 14.5375661,45 11.5,45 C8.46243388,45 4,45.4624339 4,48.5 C4,51.5375661 8.46243388,56 11.5,56 Z" id="shadow" fill="url(#linearGradient-3)"></path>
+                    <path d="M17.5,19 C20.5375661,19 22,16.5375661 22,13.5 C22,10.4624339 20.5375661,8 17.5,8 C14.4624339,8 10,8.46243388 10,11.5 C10,14.5375661 14.4624339,19 17.5,19 Z" id="shadow" fill="url(#linearGradient-3)" transform="translate(16.000000, 13.500000) rotate(-126.000000) translate(-16.000000, -13.500000) "></path>
+                    <rect id="red" fill="#FF7166" transform="translate(12.000000, 11.500000) rotate(9.000000) translate(-12.000000, -11.500000) " x="11" y="5" width="2" height="13" rx="1"></rect>
+                    <rect id="red" fill="#FF7166" transform="translate(7.000000, 21.500000) rotate(-315.000000) translate(-7.000000, -21.500000) " x="6" y="15" width="2" height="13" rx="1"></rect>
+                    <rect id="red" fill="#FF7166" transform="translate(15.000000, 21.500000) scale(-1, 1) rotate(-315.000000) translate(-15.000000, -21.500000) " x="14" y="15" width="2" height="13" rx="1"></rect>
+                </g>
+                <g id="Slipper" transform="translate(32.500000, 33.000000) scale(-1, 1) rotate(-28.000000) translate(-32.500000, -33.000000) translate(20.000000, 4.000000)">
+                    <g id="base">
+                        <use fill="#6BC9F1" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    </g>
+                    <path d="M11.5,56 C14.5375661,56 16,53.5375661 16,50.5 C16,47.4624339 14.5375661,45 11.5,45 C8.46243388,45 4,45.4624339 4,48.5 C4,51.5375661 8.46243388,56 11.5,56 Z" id="shadow" fill="url(#linearGradient-3)"></path>
+                    <path d="M17.5,19 C20.5375661,19 22,16.5375661 22,13.5 C22,10.4624339 20.5375661,8 17.5,8 C14.4624339,8 10,8.46243388 10,11.5 C10,14.5375661 14.4624339,19 17.5,19 Z" id="shadow" fill="url(#linearGradient-3)" transform="translate(16.000000, 13.500000) rotate(-126.000000) translate(-16.000000, -13.500000) "></path>
+                    <rect id="red" fill="#FF7166" transform="translate(12.000000, 11.500000) rotate(9.000000) translate(-12.000000, -11.500000) " x="11" y="5" width="2" height="13" rx="1"></rect>
+                    <rect id="red" fill="#FF7166" transform="translate(7.000000, 21.500000) rotate(-315.000000) translate(-7.000000, -21.500000) " x="6" y="15" width="2" height="13" rx="1"></rect>
+                    <rect id="red" fill="#FF7166" transform="translate(15.000000, 21.500000) scale(-1, 1) rotate(-315.000000) translate(-15.000000, -21.500000) " x="14" y="15" width="2" height="13" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

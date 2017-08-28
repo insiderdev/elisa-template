@@ -1,0 +1,203 @@
+// Navigation
+
+.navbar-default {
+  // General navbar styles & Navbar styles for small screen devices
+  background-color: @gray-dark;
+  border: none;
+  .sans-serif-font;
+  .transition-all;
+
+  .navbar-collapse {
+    border: none;
+  }
+
+  .navbar-header .navbar-brand {
+    color: @theme-primary;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+      color: darken(@theme-primary, 10%);
+    }
+
+    &.navbar-brand-custom {
+      width: 50px;
+      background: url('../../img/logo.svg') no-repeat center;
+      background-size: contain;
+      margin-left: 15px;
+    }
+  }
+
+  .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .nav {
+    > li {
+      > a,
+      > a:focus {
+        margin: 0 1px;
+        padding: 15px 15px;
+        &.btn {
+          padding: 10px 20px;
+          margin: 0 20px;
+          &:hover {
+            border-bottom: 1px solid white;
+          }
+        }
+        font-weight: 300;
+        font-size: 16px;
+        color: white;
+        &:hover {
+          border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        }
+      }
+      &.active {
+        > a,
+        > a:focus {
+          color: @theme-primary !important;
+          background-color: transparent;
+          &:hover {
+            &:after {
+              border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            }
+            background-color: transparent;
+          }
+        }
+      }
+
+      &.dropdown {
+        .dropdown-toggle span.custom-caret {
+          margin-left: 5px;
+          margin-top: -2px;
+          background: url(../../img/icons/caret.svg) no-repeat center;
+
+          display: inline-block;
+          width: 15px;
+          height: 10px;
+          vertical-align: middle;
+        }
+        &.open {
+          .dropdown-toggle {
+            background-color: transparent;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            @media(max-width: @responsive-md) {
+              border-bottom: none;
+              color: white;
+            }
+          }
+        }
+
+        .dropdown-menu {
+          margin-top: 10px;
+          border-radius: 4px;
+          @media(max-width: @responsive-md) {
+            margin-top: 0;
+          }
+
+          a {
+            color: @gray-dark;
+            opacity: 0.75;
+            .sans-serif-font;
+            font-weight: 600;
+            text-transform: uppercase;
+            padding: 5px 20px;
+            font-size: 12px;
+
+            @media(max-width: @responsive-md) {
+              border-bottom: none;
+              color: white;
+              padding: 10px 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Additionals Navbar styles for desktop
+  @media (min-width: 768px) {
+    padding: 30px 0 10px;
+    background-color: transparent;
+    .navbar-header .navbar-brand {
+      &:hover,
+      &:focus {
+        color: white;
+      }
+
+      &.navbar-brand-custom {
+        margin-left: 0;
+        background: url('../../img/logo.svg') no-repeat center;
+        background-size: contain;
+      }
+    }
+
+    .nav > li > a,
+    .nav > li > a:focus {
+      padding-bottom: 5px;
+      &:hover {
+        color: white;
+      }
+    }
+
+    &.affix {
+      padding-top: 10px;
+      background-color: @gray-dark;
+
+      &.navbar-light {
+        background-color: white;
+        box-shadow: 0 0 1px #808080;
+        .navbar-brand-custom {
+          background: url('../../img/logo-dark.svg') no-repeat center;
+          background-size: contain;
+        }
+
+        .navbar-nav > li {
+          &.dropdown {
+            span.custom-caret {
+              background: url(../../img/icons/caret-dark.svg) no-repeat center;
+            }
+            &.open {
+              .dropdown-toggle {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                color: @gray-dark;
+              }
+            }
+          }
+          > a,
+          > a:focus {
+            color: @gray-dark;
+            &:hover {
+              border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            }
+          }
+          &.active {
+            > a,
+            > a:focus {
+              color: @gray-dark !important;
+              background-color: transparent;
+              &:hover {
+                &:after {
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+                }
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.video-1 {
+  @primary-foreground-color: #fff; // #fff default
+
+  @primary-background-color: #2B333F;
+
+  // Try changing to true
+  @center-big-play-button: true; // true default
+
+  .video-js {
+    font-size: 10px;
+    color: white;
+    .vjs-poster {
+      background-repeat: inherit;
+    }
+  }
+
+  .vjs-default-skin .vjs-big-play-button {
+    font-size: 3em;
+    background-color: white !important;
+    &:before {
+      color: @gray-light;
+    }
+
+    @big-play-width: 2em;
+    @big-play-height: 2em;
+
+    line-height: @big-play-height;
+    height: @big-play-height;
+    width: @big-play-width;
+
+    border: 0.06666em solid white;
+    border-radius: 1em;
+
+    left: 50%;
+    top: 50%;
+    margin-left: -(@big-play-width / 2);
+    margin-top: -(@big-play-height / 2);
+  }
+
+  /* The default color of control backgrounds is mostly black but with a little
+     bit of blue so it can still be seen on all-black video frames, which are common. */
+  .video-js .vjs-control-bar,
+  .video-js .vjs-big-play-button,
+  .video-js .vjs-menu-button .vjs-menu-content {
+    background-color: @gray-dark;
+    opacity: 0.7;
+  }
+
+  @slider-bg-color: lighten(@gray-dark, 33%);
+
+  /* Slider - used for Volume bar and Progress bar */
+  .video-js .vjs-slider {
+    background-color: @slider-bg-color;
+    opacity: 0.7;
+  }
+
+  .video-js .vjs-volume-level,
+  .video-js .vjs-play-progress,
+  .video-js .vjs-slider-bar {
+    background: @primary-foreground-color;
+  }
+
+  .video-js .vjs-load-progress {
+    background: lighten(@slider-bg-color, 25%);
+    opacity: 0.5;
+  }
+
+  .video-js .vjs-load-progress div {
+    background: lighten(@slider-bg-color, 50%);
+    opacity: 0.75;
+  }
+
+
+}

@@ -1,0 +1,22 @@
+section.reviews {
+  padding: 0 0 50px;
+
+  .review{
+    padding: 13px 15px 20px;
+    text-align: center;
+    & + .review{
+      @media (max-width: 767px){
+        margin-top: 30px;
+      }
+    }
+    .review-sign{
+      margin-bottom: 20px;
+    }
+    p{
+      margin-bottom: 30px;
+    }
+    .reviewer{
+      opacity: 0.5;
+    }
+  }
+}

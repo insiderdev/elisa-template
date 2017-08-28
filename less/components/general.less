@@ -1,0 +1,188 @@
+// Global Components
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  .sans-serif-font;
+}
+
+/**
+  * This component is using to create horizontal lines.
+  * By default it's grey. But it can be modified to be white by applying .light class.
+ */
+hr {
+  border-color: #EDEDF0;
+  border-width: 1px;
+
+  &.light {
+    border-color: white;
+  }
+
+  &.margin-sm {
+    margin: 0 10px;
+  }
+
+  &.margin-md {
+    margin: 0 30px;
+  }
+
+  &.margin-l {
+    margin: 0 50px;
+  }
+}
+
+a {
+  &:hover,
+  &:focus {
+    color: white;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  .sans-serif-font;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+aside {
+  padding: 50px 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+// Bootstrap Overrides
+.text-primary {
+  color: #424753;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+// Button Styles
+.btn-default {
+  .button-variant(@gray-darker; white; white);
+}
+
+.btn-primary {
+  .button-variant(white; transparent; white);
+}
+
+.btn-rect {
+  .nurito-font !important;
+  border-radius: 5px !important;
+  text-transform: none !important;
+  font-weight: 100 !important;
+
+  &.btn-xl {
+    font-size: 18px !important;
+  }
+
+  &--primary {
+    .button-rect-variant(white; transparent; white);
+
+    &:hover {
+      background-color: white;
+      color: @gray-dark;
+    }
+  }
+
+  &--default {
+    .button-rect-variant(white; @theme-secondary; @theme-secondary);
+
+    &:hover {
+      background-color: white;
+      color: @gray-dark;
+    }
+  }
+
+  &--white {
+    .button-rect-variant(@gray-dark; white; white);
+
+    &:hover {
+      background-color: @gray-dark;
+      color: white;
+    }
+  }
+
+  &--dark {
+    .button-rect-variant(white; @gray-dark; @gray-dark);
+
+    &:hover {
+      background-color: white;
+      color: @gray-dark;
+    }
+  }
+}
+
+.btn {
+  .sans-serif-font;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
+
+// Extras
+// -- Highlight Color Customization
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: @gray-darker;
+}
+
+::selection {
+  color: white;
+  text-shadow: none;
+  background: @gray-darker;
+}
+
+img::selection {
+  color: white;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+
+body {
+  webkit-tap-highlight-color: @gray-darker;
+}
+
+.regular-text {
+  color: #424753;
+  font-size: 16px;
+
+  &.light {
+    font-weight: 100;
+  }
+}
+
+.text-section-row {
+  margin-bottom: 50px;
+  > div {
+    padding: 20px;
+  }
+  > div:nth-child(1) {
+    border-right: 1px solid #EDEDEF;
+  }
+}

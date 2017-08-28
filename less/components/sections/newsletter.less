@@ -1,0 +1,63 @@
+.newsletter-form{
+  margin: 0 auto;
+  max-width: 550px;
+  .input-group{
+    @media (max-width: 479px){
+      display: block;
+      height: 100px;
+    }
+  }
+  .form-control{
+    font-size: 19px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 38px;
+    @media (max-width: 479px){
+      display: block;
+      width: 100%;
+    }
+    &::-moz-placeholder {
+      line-height: 50px;
+    }
+    &:-ms-input-placeholder {
+      line-height: 50px;
+    }
+    &::-webkit-input-placeholder {
+      line-height: 50px;
+    }
+  }
+  .input-group-addon{
+    padding: 0;
+    border: none;
+    @media (max-width: 479px){
+      display: block;
+      width: 100%;
+      white-space: normal;
+      float: left;
+      margin-top: -1px;
+    }
+    button{
+      width: 130px;
+      line-height: 50px;
+      padding: 0;
+      border: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: @theme-primary;
+      color: white;
+      &:focus,&:active {
+        outline: none;
+      }
+      @media (max-width: 479px){
+        width: 100%;
+        border-radius: 0;
+      }
+    }
+  }
+  p{
+    text-align: center;
+    margin: 22px 0 0;
+    font-size: 10px;
+    color: @gray-light;
+  }
+}

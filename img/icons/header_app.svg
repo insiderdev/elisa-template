@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="248px" height="153px" viewBox="0 0 248 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Header App</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="75" height="123"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="75" height="123" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="7" y="16" width="60" height="107"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="107" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M6.91978182,6.00266846 L4.65882353,3.17647059 L5.16253706e-14,9 L6.98823529,9 L18,9 L11.3294118,0.156862745 L6.91978182,6.00266846 Z M6.71764706,2.45098039 C7.6532824,2.45098039 8.41176471,1.67845212 8.41176471,0.725490196 C8.41176471,-0.227471725 7.6532824,-1 6.71764706,-1 C5.78201172,-1 5.02352941,-0.227471725 5.02352941,0.725490196 C5.02352941,1.67845212 5.78201172,2.45098039 6.71764706,2.45098039 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="18" height="8.84313725" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Headers" transform="translate(-864.000000, -66.000000)">
+            <g id="Header-App" transform="translate(864.000000, 66.000000)">
+                <rect id="Rectangle-2-Copy-5" fill="#4665FF" opacity="0.759680707" x="0" y="0" width="248" height="153"></rect>
+                <g id="iPhone-6" transform="translate(153.000000, 30.000000)">
+                    <use id="Body" stroke="#484848" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <rect id="Camera" fill="#484848" x="30" y="8" width="14" height="3" rx="1.5"></rect>
+                    <use id="Screen" stroke="#484848" mask="url(#mask-4)" stroke-width="4" fill="#57E623" opacity="0.400532156" xlink:href="#path-3"></use>
+                </g>
+                <g id="Two-Line-text-Copy-3" transform="translate(20.000000, 57.000000)" fill="#FFFFFF">
+                    <g id="Two-Line-text">
+                        <rect id="Rectangle-3" x="0" y="0" width="102" height="7" rx="2"></rect>
+                        <rect id="Rectangle-3-Copy" x="0" y="12" width="91" height="7" rx="2"></rect>
+                        <rect id="Rectangle-3-Copy-2" x="0" y="24" width="76" height="7" rx="2"></rect>
+                        <rect id="Rectangle-3-Copy-3" x="0" y="36" width="61" height="7" rx="2"></rect>
+                    </g>
+                </g>
+                <rect id="Rectangle-13-Copy-12" fill="#FFFFFF" x="14" y="10" width="30" height="7" rx="2"></rect>
+                <rect id="Rectangle-13-Copy-13" fill="#FFFFFF" x="191" y="10" width="18" height="7" rx="2"></rect>
+                <rect id="Rectangle-13-Copy-14" fill="#FFFFFF" x="216" y="10" width="18" height="7" rx="2"></rect>
+                <rect id="Rectangle-13-Copy-15" fill="#FFFFFF" x="165" y="10" width="18" height="7" rx="2"></rect>
+                <g id="Image-Icon-1x" transform="translate(180.000000, 93.000000)" stroke="#555555" stroke-width="0.8" fill="#EAE6D5">
+                    <g transform="translate(0.000000, 2.000000)" id="Image-Icon">
+                        <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+                <g id="CTA-Green" transform="translate(20.000000, 109.000000)" fill="#7ED321">
+                    <rect x="0" y="0" width="59" height="12"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

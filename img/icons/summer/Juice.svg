@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="73px" viewBox="0 0 52 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Juice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="19.5" cy="26.5" rx="7.5" ry="7.5"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="15" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-299.000000, -293.000000)">
+            <g id="Juice" transform="translate(299.000000, 293.000000)">
+                <path d="M23.5,68 C42.2148437,68 47,55.4786916 47,42.5 C47,29.5213084 36.4786916,19 23.5,19 C10.5213084,19 0,29.5213084 0,42.5 C0,55.4786916 4.78515625,68 23.5,68 Z" id="body" fill="#E59768"></path>
+                <ellipse id="hole" fill="#785037" cx="23.5" cy="29" rx="13.5" ry="8"></ellipse>
+                <path d="M46.968939,41 C46.9895624,41.4036595 47,41.8100088 47,42.2187959 C47,55.1974875 42.2148437,67.7187959 23.5,67.7187959 C4.78515625,67.7187959 0,55.1974875 0,42.2187959 C0,41.8100088 0.0104376406,41.4036595 0.0310609538,41 C0.46809122,53.3193889 5.64324752,64.7187959 23.5,64.7187959 C41.3567525,64.7187959 46.5319088,53.3193889 46.968939,41 Z" id="shadow" fill="#E1854E"></path>
+                <path d="M36.8955543,30 C36.9644894,29.6724058 37,29.3386603 37,29 C37,24.581722 30.9558441,21 23.5,21 C16.0441559,21 10,24.581722 10,29 C10,29.3386603 10.0355106,29.6724058 10.1044457,30 C10.9348612,26.0536884 16.6156452,23 23.5,23 C30.3843548,23 36.0651388,26.0536884 36.8955543,30 Z" id="shadow" fill="#9F7154"></path>
+                <path d="M28.0104319,4.06371438 L27.4757151,3.94026528 L20.3242185,37.1591807 L25.9930769,37.0347457 L33.09038,6.29294852 L42.2798092,5.00145847 L41.5839437,0.0501181214 L29.7065285,1.71937997 C28.6085208,1.8736949 27.8451148,2.88742202 27.9992163,3.98391167 L28.0104319,4.06371438 Z" id="straw" fill="#FF7166"></path>
+                <g id="flower" transform="translate(15.000000, 39.000000)">
+                    <path d="M13,29 C13,29 19,22.9558441 19,15.5 C19,8.04415588 13,2 13,2 C13,2 7,8.04415588 7,15.5 C7,22.9558441 13,29 13,29 Z" id="green" fill="#52DE9D" transform="translate(13.000000, 15.500000) rotate(-31.000000) translate(-13.000000, -15.500000) "></path>
+                    <path d="M27,31 C27,31 33,24.9558441 33,17.5 C33,10.0441559 27,4 27,4 C27,4 21,10.0441559 21,17.5 C21,24.9558441 27,31 27,31 Z" id="green" fill="#4AC58C" transform="translate(27.000000, 17.500000) rotate(-315.000000) translate(-27.000000, -17.500000) "></path>
+                    <use id="yellow" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="4" fill="#FFD668" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,51 @@
+section.split-product {
+  padding: 20px 0 50px;
+  .product-image{
+    float: right;
+    img {
+      max-height: 500px;
+    }
+    @media (max-width: @responsive-md){
+      float: left;
+      width: 100%;
+    }
+  }
+  img{
+    margin: 0 auto;
+    @media (max-width: @responsive-md){
+      max-width: 200px;
+    }
+  }
+
+  .product-features {
+    padding-top: 63px;
+    @media (max-width: @responsive-md){
+      float: left;
+
+      .section-header {
+        padding: 0 20px;
+      }
+    }
+    ul{
+      li{
+        line-height: 32px;
+        @media (max-width: @responsive-md){
+          font-size: 16px;
+        }
+        & + li{
+          margin-top: 22px;
+        }
+        &:before{
+          width: 32px;
+          height: 32px;
+          margin-right: 17px;
+          content: '';
+          background: url(../../../img/icons/checked.png) no-repeat scroll 0 0;
+          background-size: contain;
+          float: left;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="61px" viewBox="0 0 26 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>IceCream</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.3551483,0.21278299 C14.5913333,0.0730202691 13.8041943,0 13,0 C5.81871963,0 0,5.8172344 0,12.9931567 L0,40.9930191 C0,42.6591426 1.34669617,44 3.00793008,44 L22.9920699,44 C24.6568766,44 26,42.6537288 26,40.9930191 L26,12.9931567 C26,11.7395286 25.822221,10.527223 25.4904767,9.3800875 C24.5742964,9.77886437 23.5629727,10 22.5,10 C18.3578644,10 15,6.64213562 15,2.5 C15,1.70238875 15.1245079,0.933857894 15.3551483,0.21278299 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-183.000000, -299.000000)">
+            <g id="IceCream" transform="translate(183.000000, 299.000000)">
+                <rect id="stick" fill="#FFBE97" x="9" y="44" width="7" height="17"></rect>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="red" fill="#FF7166" xlink:href="#path-1"></use>
+                <g id="stripe" mask="url(#mask-2)" fill="#FF928A">
+                    <g transform="translate(7.000000, 0.000000)">
+                        <rect id="stripe-l" x="0" y="0" width="5" height="44"></rect>
+                        <rect id="stripe-r" x="7" y="0" width="5" height="44"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

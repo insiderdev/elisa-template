@@ -1,0 +1,30 @@
+section.partners {
+  min-height: 80px;
+  height: 10vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  box-shadow: 0 0 1px 0 rgba(31,45,61,.3);
+
+  @media (max-width: @responsive-md) {
+    overflow-x: scroll;
+  }
+
+  .container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    .partner-single {
+      width: 12.5%;
+
+      margin: 0 20px;
+      >img,svg {
+        max-width: 100%;
+        path {
+          fill: @silver;
+        }
+      }
+    }
+  }
+}

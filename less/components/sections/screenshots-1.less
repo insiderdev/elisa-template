@@ -1,0 +1,32 @@
+section.screenshots-1 {
+  .screenshots-container {
+    .screenshot {
+      margin-top: 50px;
+      @media (min-width: @responsive-md) {
+        margin-top: 30px;
+      }
+      .screen-container {
+        box-shadow: 0 0 3px @gray-dark;
+        &:hover {
+          transform: scale(1.01);
+          box-shadow: 0 0 5px @gray-dark;
+          cursor: pointer;
+        }
+        &:focus {
+          outline: none;
+        }
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .screen-description {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 10px;
+        font-size: 18px;
+      }
+    }
+  }
+}

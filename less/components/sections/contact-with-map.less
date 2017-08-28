@@ -1,0 +1,59 @@
+.contact-with-map {
+  .contact-container {
+    padding: 50px 50px 50px 0;
+
+    @media (max-width: @responsive-md) {
+      padding: 50px 15px;
+      width: 100%;
+    }
+  }
+
+  .contact-form{
+    margin-top:15px;
+
+
+    .textarea{
+      min-height:220px;
+      resize:none;
+    }
+  }
+
+  .form-control{
+    box-shadow:none;
+    border-color:#eee;
+    height:49px;
+
+    &:focus{
+      box-shadow:none;
+      border-color: @theme-primary;
+    }
+  }
+
+  .form-control-feedback{
+    line-height:50px;
+  }
+
+  .form-control-feedback {
+    line-height: 50px;
+    top: 0;
+  }
+
+
+  .map-column {
+    padding: 0;
+    position: relative;
+    @media (max-width: @responsive-md) {
+      height: 250px;
+      width: 100%;
+
+    }
+
+    .map-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

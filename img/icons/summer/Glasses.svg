@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="59px" viewBox="0 0 58 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Glasses</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M37,13 C37,9.13400675 33.8659932,6 30,6 C26.1340068,6 23,9.13400675 23,13" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="7" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M17,20 C22.5228475,20 27,15.5228475 27,10 C27,4.4771525 22.5228475,0 17,0 C11.4771525,0 4,6.4771525 4,12 C4,17.5228475 11.4771525,20 17,20 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23" height="20" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M46,20 C51.5228475,20 56,15.5228475 56,10 C56,4.4771525 51.5228475,0 46,0 C40.4771525,0 33,6.4771525 33,12 C33,17.5228475 40.4771525,20 46,20 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23" height="20" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M37,13 C37,9.13400675 33.8659932,6 30,6 C26.1340068,6 23,9.13400675 23,13" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="14" height="7" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M17,20 C22.5228475,20 27,15.5228475 27,10 C27,4.4771525 22.5228475,-1.13686838e-13 17,-1.13686838e-13 C11.4771525,-1.13686838e-13 4,6.4771525 4,12 C4,17.5228475 11.4771525,20 17,20 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23" height="20" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <path d="M46,20 C51.5228475,20 56,15.5228475 56,10 C56,4.4771525 51.5228475,0 46,0 C40.4771525,0 33,6.4771525 33,12 C33,17.5228475 40.4771525,20 46,20 Z" id="path-11"></path>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23" height="20" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Summer-Color-Icons" transform="translate(-298.000000, -429.000000)">
+            <g id="Glasses" transform="translate(295.000000, 429.000000)">
+                <g transform="translate(2.000000, 0.000000)">
+                    <rect id="h" fill="#49CCCD" transform="translate(5.500000, 14.500000) rotate(-315.000000) translate(-5.500000, -14.500000) " x="3" y="10" width="5" height="9" rx="2.5"></rect>
+                    <rect id="h" fill="#49CCCD" transform="translate(54.500000, 14.500000) scale(-1, 1) rotate(-315.000000) translate(-54.500000, -14.500000) " x="52" y="10" width="5" height="9" rx="2.5"></rect>
+                    <use id="n" stroke="#49CCCD" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
+                    <use id="glass" stroke="#52DDDE" mask="url(#mask-4)" stroke-width="6" fill="#C4EEFF" xlink:href="#path-3"></use>
+                    <use id="glass" stroke="#52DDDE" mask="url(#mask-6)" stroke-width="6" fill="#C4EEFF" transform="translate(44.500000, 10.000000) scale(-1, 1) translate(-44.500000, -10.000000) " xlink:href="#path-5"></use>
+                </g>
+                <g transform="translate(32.000000, 39.000000) rotate(-27.000000) translate(-32.000000, -39.000000) translate(2.000000, 29.000000)">
+                    <rect id="h" fill="#FF2918" transform="translate(5.500000, 14.500000) rotate(-315.000000) translate(-5.500000, -14.500000) " x="3" y="10" width="5" height="9" rx="2.5"></rect>
+                    <rect id="h" fill="#FF2918" transform="translate(54.500000, 14.500000) scale(-1, 1) rotate(-315.000000) translate(-54.500000, -14.500000) " x="52" y="10" width="5" height="9" rx="2.5"></rect>
+                    <use id="n" stroke="#FF2919" mask="url(#mask-8)" stroke-width="6" xlink:href="#path-7"></use>
+                    <use id="glass" stroke="#FF7166" mask="url(#mask-10)" stroke-width="6" fill="#C4EEFF" xlink:href="#path-9"></use>
+                    <use id="glass" stroke="#FF7166" mask="url(#mask-12)" stroke-width="6" fill="#C4EEFF" transform="translate(44.500000, 10.000000) scale(-1, 1) translate(-44.500000, -10.000000) " xlink:href="#path-11"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

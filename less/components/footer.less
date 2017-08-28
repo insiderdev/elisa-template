@@ -1,0 +1,50 @@
+.footer {
+  background: @gray-dark;
+  padding: 30px 0 0;
+
+  h5,a {
+    color: white;
+  }
+
+  address {
+    color: @gray-light;
+    * {
+      color: @gray-light;
+    }
+  }
+
+  h5 {
+    font-weight: 600;
+  }
+
+  ul>li {
+    padding: 5px 0;
+
+    a {
+      color: @gray-light;
+      font-weight: 100;
+    }
+  }
+
+  .bottom-row {
+    p {
+      .open-sans-font;
+      color: @gray-light;
+    }
+  }
+
+  &--light {
+    background: white;
+
+    h5 {
+      color: @gray-dark;
+    }
+
+    .bottom-row {
+      p {
+        .open-sans-font;
+        color: @gray-dark;
+      }
+    }
+  }
+}
